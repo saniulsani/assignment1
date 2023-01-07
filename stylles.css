@@ -55,6 +55,13 @@
     padding-bottom: 20px;
     font-family:sans-serif;
 }
+ul {
+    list-style: none;
+  }
+ul li:before {
+    content: '✓';
+    
+  }
 
 /* section 4 */
 
@@ -87,7 +94,8 @@
 /* section 4 */
 
 .tittlle{
-    margin: 50px 200px 15px 200px;
+    margin-bottom: ;
+    margin: 50px 200px 80px 200px;
     /* background: linear-gradient(images);  */
     /* background-image: linear-gradient( #75); */
     background-image: url("../new-year-new-me/images/watch.png"), linear-gradient(#eb01a5, #d13531);
@@ -115,8 +123,42 @@
 /* section 5 */
 .main-classes{
     display: flex;
+    background-color: black;
+}
+.contact{
+    margin: 50px 500px 10px 180px ;
+    color: white;
 }
 .contact a{
     text-decoration: none;
 }
+.aa{
+  padding-bottom: 15px;
+}
+.bb{
+    padding-bottom: 15px;
+}
+.cc{
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+.contact-2{
+    margin-top: 50px;
+    margin-right: 100px;
+    color: white;
+}
 
+.aaa{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+input{
+    height: 50px;
+
+}
+
+.ccc{
+    margin-top: 30px;
+    padding: 15px 30px;
+}
