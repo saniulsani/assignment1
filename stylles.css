@@ -113,4 +113,10 @@
 }
 
 /* section 5 */
+.main-classes{
+    display: flex;
+}
+.contact a{
+    text-decoration: none;
+}
 
